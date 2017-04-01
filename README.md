@@ -2,17 +2,22 @@
 
 Data Structures and algorithms Class offered by FrontendMasters in Javascripts by @BiancaGando
 
-## Learning DS
-
-1. Learn Data Structure Concept
-2. Build the Data Structure
- * Pseudocode
- * Code
-3. Utilize the Data Structure
-
-4. Understand Data Structure
--
-
 ## Stacks
 
 LIFO
+
+## Queues
+
+FIFO
+
+### Interface
+
+Constructor Function
+
+* Storage
+
+Methods
+
+* enqueue(value) // adds values to the back, returns size
+* dequeue() // removes value from front, returns value
+* size() // returns size of the queue as an integer
