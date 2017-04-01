@@ -3,17 +3,20 @@ const Stack = function () {
 };
 
 Stack.prototype.push = function (val) {
-  if (this.storage) {
-    this.storage = this.storage.concat(`,${val}`);
+  const storage = this.storage;
+  if (storage) {
+    this.storage = storage.concat(`,${val}`);
   } else {
-    this.storage = this.storage.concat(val);
+    this.storage = storage.concat(val);
   }
 };
 
 Stack.prototype.pop = function () {
+  const items = this.items();
+
   if (this.size) {
-    this.storage = this.items().splice(0, this.items().length - 1).join(',');
-    return this.items()[this.items().length - 1];
+    this.storage = items.splice(0, items.length - 1).join(',');
+    return items[items.length - 1];
   }
   return 0;
 };
