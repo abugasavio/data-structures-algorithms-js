@@ -1,0 +1,30 @@
+{
+  "name": "data-structures-algorithms-js",
+  "version": "1.0.0",
+  "description": "FrontendMasters class ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savioabuga/data-structures-algorithms-js.git"
+  },
+  "keywords": [
+    "Algorithms",
+    "Javascript"
+  ],
+  "author": "Savio Abuga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/savioabuga/data-structures-algorithms-js/issues"
+  },
+  "homepage": "https://github.com/savioabuga/data-structures-algorithms-js#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.9.0"
+  }
+}
