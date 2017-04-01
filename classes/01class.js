@@ -6,7 +6,7 @@ function Building(floors) {
 }
 
 
-Building.prototype.countFloors = function () {
+Building.prototype.countFloors = function countFloors() {
   console.log('I have', this.floors, 'floors');
 };
 
