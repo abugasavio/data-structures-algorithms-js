@@ -1,10 +1,15 @@
 function Building(floors) {
-    // this = {};
-    this.what = 'building';
-    this.floors = floors;
-    // return this;
+  // this = {};
+  this.what = 'building';
+  this.floors = floors;
+  // return this;
 }
 
-var myBuilding = new Building(4);
+
+Building.prototype.countFloors = function () {
+  console.log('I have', this.floor, 'floors');
+};
+
+const myBuilding = new Building(4);
 
 console.log(myBuilding);
