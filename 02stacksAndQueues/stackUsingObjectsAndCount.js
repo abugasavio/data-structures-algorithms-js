@@ -1,5 +1,3 @@
-const assert = require('chai').assert;
-
 function Stack(capacity) {
   this.capacity = capacity || Infinity;
   this.count = 0;
