@@ -29,5 +29,3 @@ myMeals.push('Githeri');
 console.log(myMeals);
 console.log(myMeals.count());
 console.log(myMeals.peek());
-
-

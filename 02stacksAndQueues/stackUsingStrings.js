@@ -35,5 +35,3 @@ myWeeklyMenu.push('RedBeans');
 myWeeklyMenu.push('Tacco');
 myWeeklyMenu.push('Pizza');
 console.log(myWeeklyMenu.pop());
-
-
