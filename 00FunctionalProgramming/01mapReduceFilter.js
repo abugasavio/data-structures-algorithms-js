@@ -43,3 +43,23 @@ console.log(bookNamesMap);
 
 console.log('**** End using Map ******');
 
+console.log('**** Using Reduce ******');
+
+const orders = [
+  { amount: 250 },
+  { amount: 400 },
+  { amount: 100 },
+  { amount: 325 },
+];
+
+let totalAmount = 0;
+
+for (let index = 0; index < orders.length; index += 1) {
+  totalAmount += orders[index].amount;
+}
+
+const totalAmountReduce = orders.reduce((sum, order) => sum + order.amount
+, 0);
+
+console.log(totalAmount);
+console.log(totalAmountReduce);
