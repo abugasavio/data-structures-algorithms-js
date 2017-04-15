@@ -1,5 +1,12 @@
 # Data Structures and algorithms in Javascripts
 
+## Resources
+
+### Slides
+
+* [Sorting](http://slides.com/bgando/sorting#/)
+
+
 Data Structures and algorithms Class offered by FrontendMasters in Javascripts by @BiancaGando
 
 ## Stacks
@@ -21,3 +28,4 @@ Methods
 * enqueue(value) // adds values to the back, returns size
 * dequeue() // removes value from front, returns value
 * size() // returns size of the queue as an integer
+
